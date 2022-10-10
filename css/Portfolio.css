@@ -1,0 +1,72 @@
+.page {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: 'Roboto';
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+/* logo */
+
+.logo {
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo:hover {
+    color: #2196f3;
+}
+
+.logo-primary {
+    color: #2196f3;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.6px;
+    color: #ffffff;
+}
+
+.logo-secondary {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.6px;
+    color: #2196f3;
+}
+
+.site-nav .list {
+    font-family: 'Roboto';
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.link-current{
+    color: #2196f3;
+}
+
+.connection-nav a[href="mailto:info@devstudio.com"] {
+    color: #2196f3;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.connection-nav a[href="tel:+380961111111"] {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}

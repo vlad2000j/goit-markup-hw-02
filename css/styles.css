@@ -1,14 +1,15 @@
 .page {
-  background-color: #ffffff;
-  color: #757575;
-  font-family: 'Roboto';
+    background-color: #ffffff;
+    color: #757575;
+    font-family: 'Roboto';
 }
 
 .list {
-  list-style: none;
+    list-style: none;
 }
 
 /* header */
+/* logo */
 
 .logo {
     color: #000000;
@@ -19,11 +20,18 @@
 }
 
 .logo:hover {
-  color: #2196f3;
+    color: #2196f3;
 }
 
-.site-nav .link {
-  color: #212121;
+.logo-primary{
+    color: #2196f3;
+}
+
+/* site-nav */
+
+.site-nav .list {
+    font-family: 'Roboto';
+    color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -31,19 +39,15 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .site-nav a[href="./index.html"] {
-  color: #2196f3;
-}
-
-.site-nav .link.current {
-    color: blueviolet;
+    color: #2196f3;
 }
 
 .connection-nav a[href="mailto:info@devstudio.com"] {
-  color: #2196f3;
+    color: #2196f3;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -51,8 +55,8 @@
 }
 
 .connection-nav a[href="tel:+380961111111"] {
-  color: #757575;
-font-family: 'Roboto';
+    color: #757575;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -60,12 +64,11 @@ font-family: 'Roboto';
 
 /* main */
 .hero-title {
-  color: #212121;
+    color: #212121;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.2;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -83,19 +86,20 @@ font-family: 'Roboto';
     font-family: inherit;
     background-color: #2196f3;
     color: #ffffff;
-  
+
 }
+
 .button:hover {
-  color: #000000;
+    color: #000000;
 }
 
 .section-title {
-  color: #212121;
+    color: #212121;
 }
 
 .section-minititle {
-  color: #212121;
-font-family: 'Roboto';
+    color: #212121;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -103,12 +107,31 @@ font-family: 'Roboto';
 }
 
 .name {
-     color: #212121; 
+    color: #212121;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,3px;
+    line-height: 1, 3px;
 }
+
+/* footer */
+
+.logo-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.6px;
+    color: #ffffff;
+}
+
+.logo-secondary{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.6px;
+    color: #2196f3;
+}
+
 
 /* бекграунд #FFFFFF */
 /* колір 1 секції з заголовком #2F303A */
