@@ -1,87 +1,77 @@
+.page {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: 'Roboto';
+}
+
+.list {
+  list-style: none;
+}
+
 /* header */
 
-.logo1 {
-    color: #2196F3;
+.logo {
+  color: #000000;
+  font-family: 'Raleway';
 }
 
-.logo2 {
-    color: #212121;
+.logo:hover {
+  color: #2196f3;
 }
 
-.logo3 {
-    color: #FFFFFF;
+.site-nav .link {
+  color: #212121;
 }
 
-/* navigation */
-
-.nav-one {
-    color: #2196F3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
 
-.nav-two {
-    color: #212121;
+.site-nav a[href="./index.html"] {
+  color: #2196f3;
 }
 
-/* kontacts */
-
-.mail {
-    color: #2196F3;
+.site-nav .link.current {
+    color: blueviolet;
 }
 
-.phone {
-    color: #757575;;
+.connection-nav a[href="mailto:info@devstudio.com"] {
+  color: #2196f3;
 }
 
-/* hero */
-
-.hero {
-    background-color: #2F303A;
-    
+.connection-nav a[href="tel:+380961111111"] {
+  color: #757575;
 }
 
+/* main */
 .hero-title {
-    color: #FFFFFF;
+  color: #212121;
 }
 
 .button {
-    background-color: #2196F3;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button:hover {
+  color: #000000;
 }
 
-.button-text {
-    color: #FFFFFF;
+.section-title {
+  color: #212121;
 }
 
-.section {
-    color: #757575;
-}
-
-.section-title, 
-.section-title2 
-{
-    color: #212121;
+.section-minititle {
+  color: #212121;
 }
 
 .name {
-    color: #212121;
+  color: #212121; 
 }
 
-/* footer */
-
-.footer {
-    background-color: #212121;
-}
-
-.adress {
-    color: #FFFFFF;
-}
-
-.contacts {
-    color: rgba(255, 255, 255, 0.6);
-}
-
- /* бекграунд #FFFFFF */
- /* колір 1 секції з заголовком #2F303A */
- /* колір секції наша команда #F5F4FA */
- /* основний колір тексту #757575 */
- /* колір підзаголовків #212121 */
- /* фоновий колір тексту і кнопок #2196F3 */
+/* бекграунд #FFFFFF */
+/* колір 1 секції з заголовком #2F303A */
+/* колір секції наша команда #F5F4FA */
+/* основний колір тексту #757575 */
+/* колір підзаголовків #212121 */
+/* фоновий колір тексту і кнопок #2196F3 */
