@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .page {
     background-color: #ffffff;
     color: #757575;
@@ -28,6 +32,13 @@
 }
 
 /* site-nav */
+.link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
 
 .site-nav .list {
     font-family: 'Roboto';
@@ -42,19 +53,8 @@
     color: #2196f3;
 }
 
-.site-nav a[href="./index.html"] {
-    color: #2196f3;
-}
 
-.connection-nav a[href="mailto:info@devstudio.com"] {
-    color: #2196f3;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-}
-
-.connection-nav a[href="tel:+380961111111"] {
+.connection-nav a{
     color: #757575;
     font-family: 'Roboto';
     font-weight: 500;
@@ -62,15 +62,33 @@
     line-height: 1.2;
 }
 
-/* main */
+.connection-nav a:hover{
+    color: #2196f3;
+}
+
+.connection-nav:hover {
+    color: #2196F3;
+}
+
+/* hero */
+
+.hero{
+    background-color: #2F303A;;
+}
+
 .hero-title {
-    color: #212121;
+    color: #ffffff;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.2;
     text-transform: uppercase;
 }
+
+
+
+/* main */
+
 
 
 
@@ -115,6 +133,9 @@
 }
 
 /* footer */
+.footer{
+    background-color: #2F303A;;
+}
 
 .logo-footer{
     font-family: 'Raleway';
@@ -132,6 +153,22 @@
     color: #2196f3;
 }
 
+.adress {
+    font-family: 'Roboto';
+    font-weight: 400;
+     font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* бекграунд #FFFFFF */
 /* колір 1 секції з заголовком #2F303A */
