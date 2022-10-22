@@ -22,7 +22,7 @@ body {
 
 .logo {
     color: #000000;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -38,7 +38,6 @@ body {
 
 /* site-nav */
 .link{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -46,7 +45,6 @@ body {
 }
 
 .site-nav .list {
-    font-family: 'Roboto';
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -61,7 +59,6 @@ body {
 
 .connection-nav a{
     color: #757575;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -83,7 +80,6 @@ body {
 
 .hero-title {
     color:var(--main-color);
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.2;
@@ -98,7 +94,7 @@ body {
 
 
 .button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
@@ -113,12 +109,11 @@ body {
 }
 
 .button-portfolio {
-    font-family: 'Roboto';
+    font-family: 'Roboto','sans-serif';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
 }
@@ -138,7 +133,6 @@ body {
 
 .section-minititle {
     color: #212121;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -147,7 +141,6 @@ body {
 
 .name {
     color: #212121;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1, 3px;
@@ -157,13 +150,29 @@ body {
     background-color: #F5F4FA;;
 }
 
+.title-portfolio
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #212121;
+}
+
+.description
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
 /* footer */
 .footer{
     background-color: #2F303A;;
 }
 
 .logo-footer{
-    font-family: 'Raleway';
+    font-family: 'Raleway','sans-serif';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.6;
@@ -171,7 +180,7 @@ body {
 }
 
 .logo-secondary{
-    font-family: 'Raleway';
+    font-family: 'Raleway','sans-serif';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.6;
@@ -179,7 +188,7 @@ body {
 }
 
 .adress {
-    font-family: 'Roboto';
+    font-family: 'Roboto','sans-serif';
     font-weight: 400;
      font-size: 14px;
     line-height: 1.2;
@@ -187,8 +196,7 @@ body {
 }
 
 .contacts {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto','sans-serif';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
