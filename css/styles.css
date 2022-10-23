@@ -51,26 +51,32 @@ body {
     line-height: 1.2;
 }
 
-.site-nav .link:hover,
+
+
+.site-nav .link:hover ,
 .site-nav .link:focus {
     color: var(--secondary-color);
 }
 
-
-.connection-nav a{
+.connection-nav a {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
 }
 
-.connection-nav a:hover{
+.connection-nav a:hover,
+.connection-nav a:focus {
     color: var(--secondary-color);
 }
 
-.connection-nav:hover {
+.connection-nav:hover,
+.connection-nav:focus {
     color: var(--secondary-color);
 }
+
+
+
 
 /* hero */
 
@@ -118,7 +124,9 @@ body {
     background: #F5F4FA;
 }
 
-.button-portfolio:hover{
+.button-portfolio:hover,
+.button-portfolio:focus
+{
     color:var(--main-color);
     background:var(--secondary-color);
 }
